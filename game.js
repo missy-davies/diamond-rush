@@ -24,9 +24,25 @@ addRect(width(), 20, {
 
 
 scene('game', () => {
-	const maps = []
+	const maps = [
+		[
+			'                                   ',
+			'                                   ',
+			'                                   ',
+			'                                   ',
+			'             $                     ',
+			'                                   ',
+			'                                   ',
+			'                                   ',
+		],
+	]
 	const levelCfg = {
 		width: 20,
-		height: 20
+		height: 20,
+		'$': [sprite('diamond'), solid()],
 	}
+
+	
+
+
 })
