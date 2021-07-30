@@ -21,3 +21,12 @@ addRect(width(), 20, {
 	pos: vec2(0, height() - 40),
 	solid: true,
 });
+
+
+scene('game', () => {
+	const maps = []
+	const levelCfg = {
+		width: 20,
+		height: 20
+	}
+})
